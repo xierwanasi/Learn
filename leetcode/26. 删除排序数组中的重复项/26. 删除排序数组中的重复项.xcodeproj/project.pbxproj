@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4FF352230F820200478696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FF351230F820200478696 /* AppDelegate.swift */; };
+		AA4FF354230F820200478696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FF353230F820200478696 /* ViewController.swift */; };
+		AA4FF357230F820200478696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4FF355230F820200478696 /* Main.storyboard */; };
+		AA4FF359230F820500478696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4FF358230F820500478696 /* Assets.xcassets */; };
+		AA4FF35C230F820500478696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4FF35A230F820500478696 /* LaunchScreen.storyboard */; };
+		AA4FF367230F820500478696 /* _6_____________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FF366230F820500478696 /* _6_____________Tests.swift */; };
+		AA4FF372230F820500478696 /* _6_____________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FF371230F820500478696 /* _6_____________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA4FF363230F820500478696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4FF346230F820200478696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4FF34D230F820200478696;
+			remoteInfo = "26. 删除排序数组中的重复项";
+		};
+		AA4FF36E230F820500478696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4FF346230F820200478696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4FF34D230F820200478696;
+			remoteInfo = "26. 删除排序数组中的重复项";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA4FF34E230F820200478696 /* 26. 删除排序数组中的重复项.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "26. 删除排序数组中的重复项.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4FF351230F820200478696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA4FF353230F820200478696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA4FF356230F820200478696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4FF358230F820500478696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4FF35B230F820500478696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4FF35D230F820500478696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4FF362230F820500478696 /* 26. 删除排序数组中的重复项Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "26. 删除排序数组中的重复项Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4FF366230F820500478696 /* _6_____________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6_____________Tests.swift"; sourceTree = "<group>"; };
+		AA4FF368230F820500478696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4FF36D230F820500478696 /* 26. 删除排序数组中的重复项UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "26. 删除排序数组中的重复项UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4FF371230F820500478696 /* _6_____________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6_____________UITests.swift"; sourceTree = "<group>"; };
+		AA4FF373230F820500478696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4FF34B230F820200478696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF35F230F820500478696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF36A230F820500478696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4FF345230F820200478696 = {
+			isa = PBXGroup;
+			children = (
+				AA4FF350230F820200478696 /* 26. 删除排序数组中的重复项 */,
+				AA4FF365230F820500478696 /* 26. 删除排序数组中的重复项Tests */,
+				AA4FF370230F820500478696 /* 26. 删除排序数组中的重复项UITests */,
+				AA4FF34F230F820200478696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4FF34F230F820200478696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FF34E230F820200478696 /* 26. 删除排序数组中的重复项.app */,
+				AA4FF362230F820500478696 /* 26. 删除排序数组中的重复项Tests.xctest */,
+				AA4FF36D230F820500478696 /* 26. 删除排序数组中的重复项UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4FF350230F820200478696 /* 26. 删除排序数组中的重复项 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FF351230F820200478696 /* AppDelegate.swift */,
+				AA4FF353230F820200478696 /* ViewController.swift */,
+				AA4FF355230F820200478696 /* Main.storyboard */,
+				AA4FF358230F820500478696 /* Assets.xcassets */,
+				AA4FF35A230F820500478696 /* LaunchScreen.storyboard */,
+				AA4FF35D230F820500478696 /* Info.plist */,
+			);
+			path = "26. 删除排序数组中的重复项";
+			sourceTree = "<group>";
+		};
+		AA4FF365230F820500478696 /* 26. 删除排序数组中的重复项Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FF366230F820500478696 /* _6_____________Tests.swift */,
+				AA4FF368230F820500478696 /* Info.plist */,
+			);
+			path = "26. 删除排序数组中的重复项Tests";
+			sourceTree = "<group>";
+		};
+		AA4FF370230F820500478696 /* 26. 删除排序数组中的重复项UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FF371230F820500478696 /* _6_____________UITests.swift */,
+				AA4FF373230F820500478696 /* Info.plist */,
+			);
+			path = "26. 删除排序数组中的重复项UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4FF34D230F820200478696 /* 26. 删除排序数组中的重复项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4FF376230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项" */;
+			buildPhases = (
+				AA4FF34A230F820200478696 /* Sources */,
+				AA4FF34B230F820200478696 /* Frameworks */,
+				AA4FF34C230F820200478696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26. 删除排序数组中的重复项";
+			productName = "26. 删除排序数组中的重复项";
+			productReference = AA4FF34E230F820200478696 /* 26. 删除排序数组中的重复项.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA4FF361230F820500478696 /* 26. 删除排序数组中的重复项Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4FF379230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项Tests" */;
+			buildPhases = (
+				AA4FF35E230F820500478696 /* Sources */,
+				AA4FF35F230F820500478696 /* Frameworks */,
+				AA4FF360230F820500478696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4FF364230F820500478696 /* PBXTargetDependency */,
+			);
+			name = "26. 删除排序数组中的重复项Tests";
+			productName = "26. 删除排序数组中的重复项Tests";
+			productReference = AA4FF362230F820500478696 /* 26. 删除排序数组中的重复项Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA4FF36C230F820500478696 /* 26. 删除排序数组中的重复项UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4FF37C230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项UITests" */;
+			buildPhases = (
+				AA4FF369230F820500478696 /* Sources */,
+				AA4FF36A230F820500478696 /* Frameworks */,
+				AA4FF36B230F820500478696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4FF36F230F820500478696 /* PBXTargetDependency */,
+			);
+			name = "26. 删除排序数组中的重复项UITests";
+			productName = "26. 删除排序数组中的重复项UITests";
+			productReference = AA4FF36D230F820500478696 /* 26. 删除排序数组中的重复项UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4FF346230F820200478696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = XI;
+				TargetAttributes = {
+					AA4FF34D230F820200478696 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AA4FF361230F820500478696 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA4FF34D230F820200478696;
+					};
+					AA4FF36C230F820500478696 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA4FF34D230F820200478696;
+					};
+				};
+			};
+			buildConfigurationList = AA4FF349230F820200478696 /* Build configuration list for PBXProject "26. 删除排序数组中的重复项" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4FF345230F820200478696;
+			productRefGroup = AA4FF34F230F820200478696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4FF34D230F820200478696 /* 26. 删除排序数组中的重复项 */,
+				AA4FF361230F820500478696 /* 26. 删除排序数组中的重复项Tests */,
+				AA4FF36C230F820500478696 /* 26. 删除排序数组中的重复项UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4FF34C230F820200478696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4FF35C230F820500478696 /* LaunchScreen.storyboard in Resources */,
+				AA4FF359230F820500478696 /* Assets.xcassets in Resources */,
+				AA4FF357230F820200478696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF360230F820500478696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF36B230F820500478696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4FF34A230F820200478696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4FF354230F820200478696 /* ViewController.swift in Sources */,
+				AA4FF352230F820200478696 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF35E230F820500478696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4FF367230F820500478696 /* _6_____________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4FF369230F820500478696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4FF372230F820500478696 /* _6_____________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4FF364230F820500478696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4FF34D230F820200478696 /* 26. 删除排序数组中的重复项 */;
+			targetProxy = AA4FF363230F820500478696 /* PBXContainerItemProxy */;
+		};
+		AA4FF36F230F820500478696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4FF34D230F820200478696 /* 26. 删除排序数组中的重复项 */;
+			targetProxy = AA4FF36E230F820500478696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA4FF355230F820200478696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4FF356230F820200478696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4FF35A230F820500478696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4FF35B230F820500478696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4FF374230F820500478696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA4FF375230F820500478696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4FF377230F820500478696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4FF378230F820500478696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA4FF37A230F820500478696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/26. 删除排序数组中的重复项.app/26. 删除排序数组中的重复项";
+			};
+			name = Debug;
+		};
+		AA4FF37B230F820500478696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/26. 删除排序数组中的重复项.app/26. 删除排序数组中的重复项";
+			};
+			name = Release;
+		};
+		AA4FF37D230F820500478696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "26. 删除排序数组中的重复项";
+			};
+			name = Debug;
+		};
+		AA4FF37E230F820500478696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF52USR5LM;
+				INFOPLIST_FILE = "26. 删除排序数组中的重复项UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xi.-6-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "26. 删除排序数组中的重复项";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4FF349230F820200478696 /* Build configuration list for PBXProject "26. 删除排序数组中的重复项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4FF374230F820500478696 /* Debug */,
+				AA4FF375230F820500478696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4FF376230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4FF377230F820500478696 /* Debug */,
+				AA4FF378230F820500478696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4FF379230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4FF37A230F820500478696 /* Debug */,
+				AA4FF37B230F820500478696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4FF37C230F820500478696 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4FF37D230F820500478696 /* Debug */,
+				AA4FF37E230F820500478696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4FF346230F820200478696 /* Project object */;
+}
